@@ -1,0 +1,4 @@
+interface IExample
+{
+    void DoWork();
+}

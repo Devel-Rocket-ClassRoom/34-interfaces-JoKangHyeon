@@ -1,0 +1,4 @@
+interface IBattery
+{
+    string GetName();
+}

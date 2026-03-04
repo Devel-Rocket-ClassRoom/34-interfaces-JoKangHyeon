@@ -1,0 +1,4 @@
+interface IStandard
+{
+    void Run();
+}
