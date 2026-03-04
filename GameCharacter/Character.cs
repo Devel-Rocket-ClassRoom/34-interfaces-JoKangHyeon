@@ -10,7 +10,7 @@ class Character : IAttacker, IDefender
 
     public int MaxHp { get; private set; } = 100;
 
-    public bool isDead => CurrentHp>0;
+    public bool isDead => CurrentHp<=0;
 
     public Character(string name){
         Name = name;

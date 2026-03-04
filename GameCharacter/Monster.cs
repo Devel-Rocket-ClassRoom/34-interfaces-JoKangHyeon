@@ -10,7 +10,7 @@ class Monster : IAttacker, IDefender
 
     public int MaxHp { get; private set; }
 
-    public bool isDead => CurrentHp > 0;
+    public bool isDead => CurrentHp <= 0;
 
     public Monster(string name, int maxHp, int attackPower)
     {
